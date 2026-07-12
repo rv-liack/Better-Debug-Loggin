@@ -48,16 +48,6 @@ log.simple("Plain unformatted message")
 log.set_prefix_visible(false)
 ```
 
-### Logger (Node-based alternative)
-
-```gdscript
-var log = Logger.new()
-log.set_prefix("MODULE")
-log.info("Message")
-log.warning("Warning")
-log.error("Error")
-```
-
 ## API
 
 ### DebugLogger
